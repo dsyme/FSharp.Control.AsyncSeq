@@ -14,7 +14,7 @@ requireLicenseAcceptance
 copyright
     Copyright 2015
 tags
-    F#, async, fsharpx
+    F#, async, seq
 summary
     Asynchronous sequences for F#
 description

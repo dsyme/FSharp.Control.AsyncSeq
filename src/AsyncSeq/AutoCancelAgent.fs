@@ -2,7 +2,7 @@
 // F# async extensions (AutoCancelAgent.fs)
 // (c) Tomas Petricek, 2011, Available under Apache 2.0 license.
 // ----------------------------------------------------------------------------
-namespace FSharpx.Control
+namespace FSharp.Control
 
 open System
 open System.Threading

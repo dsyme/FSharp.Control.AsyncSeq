@@ -1,7 +1,7 @@
 ﻿module AsyncSeqTests
 
 open NUnit.Framework
-open FSharpx.Control
+open FSharp.Control
 open System
 
 /// Determines equality of two async sequences by convering them to lists, ignoring side-effects.

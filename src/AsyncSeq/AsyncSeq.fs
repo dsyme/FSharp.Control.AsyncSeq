@@ -2,12 +2,12 @@
 // F# async extensions (AsyncSeq.fs)
 // (c) Tomas Petricek, 2011, Available under Apache 2.0 license.
 // ----------------------------------------------------------------------------
-namespace FSharpx.Control
+namespace FSharp.Control
 
 open System
 open System.Threading
 open System.IO
-open FSharpx.Control.Utils
+open FSharp.Control.Utils
 
 // ----------------------------------------------------------------------------
 
@@ -710,7 +710,7 @@ module AsyncSeqExtensions =
         | Cons(h, t) -> async.Combine(action h, x.For(t, action)))
 
 module Seq = 
-  open FSharpx.Control
+  open FSharp.Control
 
   /// Converts asynchronous sequence to a synchronous blocking sequence.
   /// The elements of the asynchronous sequence are consumed lazily.

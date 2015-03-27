@@ -1,4 +1,4 @@
-﻿module internal FSharpx.Control.Utils
+﻿module internal FSharp.Control.Utils
 
 let inline konst a _ = a
 
